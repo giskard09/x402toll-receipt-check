@@ -1,0 +1,21 @@
+HTTP/2 200 
+date: Wed, 18 Nov 2026 01:49:44 GMT
+content-type: application/json; charset=utf-8
+vary: Accept-Encoding
+x-content-type-options: nosniff
+x-frame-options: DENY
+referrer-policy: no-referrer
+strict-transport-security: max-age=31536000; includeSubDomains
+content-security-policy: default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; frame-ancestors 'none'; base-uri 'none'; form-action 'none'
+content-security-policy: upgrade-insecure-requests
+x-robots-tag: noindex
+cache-control: public, max-age=300
+etag: W/"a95-Q34/Y1fmQeXpKFYM6J1aqVIwdUU"
+platform: hostinger
+panel: hpanel
+server: hcdn
+alt-svc: h3=":443"; ma=86400
+x-hcdn-request-id: 0289310ff97972c663804e753c3b5180-san-edge1
+x-hcdn-cache-status: DYNAMIC
+x-hcdn-upstream-rt: 0.137
+

@@ -1,0 +1,4 @@
+Content-Type: application/json
+User-Agent: rama-verif/0
+Accept: application/json
+PAYMENT-SIGNATURE: <redacted-b64>

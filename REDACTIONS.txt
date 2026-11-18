@@ -1,0 +1,8 @@
+Bloques redactados del preregistro (contenido operativo interno; se publica el sha256 de cada bloque como compromiso):
+- Seccion 7 (seguridad y privacidad internas) | 748 bytes | sha256 12aad451a7696f233ccf4f92c582d729623114d50f8d971d4eacfa9736c4032e
+- Adenda FONDOS Y WALLET | 781 bytes | sha256 b23fce9e4a6087fd16a4e3060e9005d4071b3e0c84f0c8a6e7c963671a4592cd
+
+sha256 del preregistro ORIGINAL (sin redactar) en el momento del pago, antes de la adenda post-pago: 7a94ffb4d28d3a21ad05bf0bf8c81ea8d8a7266a4996b000222b997b8b6fd726
+La version publica es una copia redactada: el hash anterior NO puede reproducirse con ella; es un compromiso nuestro, no una prueba verificable por terceros.
+
+Sustituciones: 1 menciones del nombre interno de una sesion de trabajo reemplazadas por 'the code session'.

@@ -1,0 +1,45 @@
+{
+ "keyList": {
+  "issuer": "x402toll.com",
+  "keys": [
+   {
+    "keyId": "x402toll-ed25519-5e57c914572251f2",
+    "alg": "Ed25519",
+    "publicKey": "MCowBQYDK2VwAyEAii2LYVNURyAu/bi2LUSmjQBdrRPL6xt/+nI7gSnU950="
+   }
+  ]
+ },
+ "cases": [],
+ "fixedPoint": {
+  "endpoint": "/v1/paycheck",
+  "inputs": {
+   "salary": 85000,
+   "state": "TX"
+  },
+  "result": {
+   "inputs": {
+    "salary": 85000,
+    "state": "TX",
+    "filingStatus": "single",
+    "payFrequency": "biweekly"
+   },
+   "stateName": "Texas",
+   "stateTaxType": "No state income tax",
+   "federalTax": 9870,
+   "stateTax": 0,
+   "socialSecurity": 5270,
+   "medicare": 1232.5,
+   "additionalMedicare": 0,
+   "ficaTotal": 6502.5,
+   "totalTax": 16372.5,
+   "netAnnual": 68627.5,
+   "netPerCheck": 2639.52,
+   "periodsPerYear": 26,
+   "effectiveRatePct": 19.26,
+   "federalMarginalRatePct": 22
+  },
+  "method": "taxable = salary - standardDeduction; federal = marginal 2026 brackets; state = marginal/flat per 51-jurisdiction table (MFJ doubles single thresholds); FICA = 6.2% SS to wage base + 1.45% Medicare + 0.9% additional over threshold; net/check = netAnnual / payPeriods",
+  "dataVintage": "2026-07"
+ },
+ "responseHash": "sha256:2d0a3094dd057b542aabc49180bd277bf242504d9d91468158f8f3df4a780b62"
+}

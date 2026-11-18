@@ -1,0 +1,1 @@
+{"alg":"Ed25519","format":"spki-der-base64","publicKey":"MCowBQYDK2VwAyEAii2LYVNURyAu/bi2LUSmjQBdrRPL6xt/+nI7gSnU950=","use":"Verify the `signature` block on a GVP v0.2 verification receipt (POST /v1/receipt/:id).","spec":"https://x402toll.com/v1/spec"}

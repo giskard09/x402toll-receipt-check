@@ -1,0 +1,12 @@
+Segunda lectura con golden-vector-provenance@0.12.0 (verifyAttestation + gvpHash), ejecutada por el operador en su terminal.
+Comando: cd npm_inspect && env -i PATH="$PATH" HOME=/tmp/npmhome node run_pkg_receipt.mjs ../report_20261118T015428Z/second_reading_input.json
+Salida pegada textualmente por el operador (resumen: 7 casos, discrepancias: 0):
+N8 intacto -> paquete: verified | mio: verified | coincide
+N2 issuedAt -> paquete: contradicted ('signature does not verify') | mio: contradicted | coincide
+N3 keyId inexistente -> paquete: contradicted ('keyId not in fetched key list') | mio: contradicted | coincide
+N4 lista inalcanzable -> paquete: unverifiable ('key list unreachable') | mio: unverifiable | coincide
+N7 firma alterada -> paquete: contradicted ('signature does not verify') | mio: contradicted | coincide
+V1 responseHash recomputado por el paquete -> sha256:2d0a3094dd057b542aabc49180bd277bf242504d9d91468158f8f3df4a780b62 | mio: igual | coincide
+N1 result alterado: el hash debe cambiar -> FAIL (como se espera) | mio: FAIL | coincide
+discrepancias: 0
+(Nota: este archivo transcribe la salida; no esta firmado ni sellado por un tercero.)

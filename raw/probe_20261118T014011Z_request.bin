@@ -1,0 +1,8 @@
+POST /v1/receipt/paycheck HTTP/1.1
+Host: x402toll.com
+Content-Type: application/json
+Content-Length: 29
+User-Agent: rama-verif/0
+Accept: application/json
+
+{"salary":85000,"state":"TX"}

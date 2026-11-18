@@ -1,0 +1,95 @@
+{
+ "stamp": "20261118T015250Z",
+ "response_bytes": 3406,
+ "response_sha256": "892f464acd6fe65133f02d6f5173b3b2ee83e2e074dcfab4febfe0b95fcef474",
+ "top_keys": [
+  "receiptVersion",
+  "issuer",
+  "issuedAt",
+  "tool",
+  "endpoint",
+  "canonicalInputs",
+  "result",
+  "method",
+  "dataVintage",
+  "sources",
+  "responseHash",
+  "fixedPointVersion",
+  "trustModel",
+  "goldenVector",
+  "recheckUrl",
+  "onChainAnchor",
+  "howToVerify",
+  "disclaimer",
+  "signature"
+ ],
+ "signature.signed (M1: leer a mano)": "canonicalJson({responseHash, endpoint, dataVintage, issuer, agentId, issuedAt, payloadVersion, fixedPointVersion}) \u2014 GVP-Attestation/2",
+ "payloadVersion": "GVP-Attestation/2",
+ "mapping": "M1/M2 -> mapping_H1.json",
+ "keys": {
+  "fetchedAt": "2026-11-18T01:54:28Z",
+  "sha256": "ad54373f8a609bd716bac19ffd0cb48c48c036f69b5d2a0eafaf766c39044da2"
+ },
+ "V1": "PASS",
+ "V3": "PASS",
+ "V2": {
+  "state": "verified",
+  "info": {}
+ },
+ "payment-response": {
+  "success": true,
+  "transaction": "0x34bf480da09593b18d24355b2f2ad223b48dfb2d32bbda79ffc998b8f1b703f3",
+  "network": "eip155:8453"
+ },
+ "V4": {
+  "status": "0x1",
+  "block": 58881974,
+  "transfer_ok": true,
+  "authorizationUsed_nonce_ok": true,
+  "rpc": "https://mainnet.base.org"
+ },
+ "V5": "agentId existe en el registry declarado; owner 0x1c9923489cd7d75dd2f6735c48090b8bd4c7e5a9",
+ "V6": "no se encontro lista de revocacion (recheckUrl no devolvio): HTTP Error 404: Not Found",
+ "N1-N8": {
+  "N1 result 1 byte -> V1 FAIL": {
+   "got": "FAIL",
+   "expected": "FAIL",
+   "ok": true
+  },
+  "N2 issuedAt cambiado -> contradicted": {
+   "got": "contradicted",
+   "expected": "contradicted",
+   "ok": true
+  },
+  "N3 keyId inexistente -> contradicted": {
+   "got": "contradicted",
+   "expected": "contradicted",
+   "ok": true
+  },
+  "N4 lista inalcanzable sin kept -> unverifiable": {
+   "got": "unverifiable",
+   "expected": "unverifiable",
+   "ok": true
+  },
+  "N5 payloadVersion cambiado -> nunca verified": {
+   "got": "contradicted",
+   "expected": "contradicted|unverifiable",
+   "ok": true
+  },
+  "N6 publicKey embebida distinta -> contradicted": {
+   "got": "contradicted",
+   "expected": "contradicted",
+   "ok": true
+  },
+  "N7 firma con 1 byte alterado -> contradicted": {
+   "got": "contradicted",
+   "expected": "contradicted",
+   "ok": true
+  },
+  "N8 control positivo -> verified": {
+   "got": "verified",
+   "expected": "verified",
+   "ok": true
+  }
+ }
+}

@@ -1,0 +1,24 @@
+HTTP 200 OK
+Date: Wed, 18 Nov 2026 01:52:50 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 3406
+Connection: keep-alive
+Vary: Accept-Encoding
+x-content-type-options: nosniff
+x-frame-options: DENY
+referrer-policy: no-referrer
+strict-transport-security: max-age=31536000; includeSubDomains
+content-security-policy: default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; frame-ancestors 'none'; base-uri 'none'; form-action 'none'
+content-security-policy: upgrade-insecure-requests
+x-robots-tag: noindex
+Cache-Control: no-store, private
+etag: W/"d4e-rS5x8effH+SX6yVS4+E79iLFo24"
+payment-response: eyJzdWNjZXNzIjp0cnVlLCJwYXllciI6IjB4OTNCQjUzOTZCMzNCMkM5QjI2YjYzM0M5Y2FmNTlFREEyMDE2QmIzNiIsInRyYW5zYWN0aW9uIjoiMHgzNGJmNDgwZGEwOTU5M2IxOGQyNDM1NWIyZjJhZDIyM2I0OGRmYjJkMzJiYmRhNzlmZmM5OThiOGYxYjcwM2YzIiwibmV0d29yayI6ImVpcDE1NTo4NDUzIn0=
+platform: hostinger
+panel: hpanel
+Server: hcdn
+alt-svc: h3=":443"; ma=86400
+x-hcdn-request-id: d768c24cc239cee3e37484b10c29e212-san-edge1
+x-hcdn-cache-status: DYNAMIC
+x-hcdn-upstream-rt: 0.873
+Accept-Ranges: bytes
